@@ -6,12 +6,12 @@ buildscript {
 
     dependencies {
         //noinspection GradleDependency
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle'
     }
 }
 
 plugins {
-    id "com.diffplug.gradle.spotless" version "3.23.0"
+    id "com.diffplug.spotless" version "6.20.0"
 }
 
 spotless {
